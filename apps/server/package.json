@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc -w & nodemon -q -w dist dist/index.js"
+  },
+  "dependencies": {
+    "fastify": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.4",
+    "nodemon": "^2.0.19",
+    "typescript": "^4.7.4"
+  }
+}
